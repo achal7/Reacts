@@ -1,5 +1,5 @@
-# ReactNext
-ReactNext is a java script library on top of [React](http://facebook.github.io/react/)
+# Reacts
+Reacts is a java script library on top of [React](http://facebook.github.io/react/)
 This library is developed in ES6 and includes functionality to quickly develop React.JS based applications.
 It covers:
 
@@ -11,9 +11,9 @@ It covers:
 ## Example Usage
 
 ### Creating single component with methods
-<code>
-import RNext from "ReactNext.js";
-export default class Shell extends RNext.Component(){
+```js
+import Reacts from "Reacts.js";
+export default class Shell extends Reacts.Component(){
     constructor(context){
         //Home is passed as an argument, so that ReactNext will bind the PreRender method of this component in the
         //life cycle of this component, otherwise its not needed.
@@ -31,12 +31,11 @@ export default class Shell extends RNext.Component(){
         console.log("Component: Initializing context: " + context.name);
     }
 }
-</code>
+```
 
 ### Creating Mixins
 
-<code>
-import RNext from 'ReactNext.js';
+```js
 //Standard React kind mixin
 let CoreMixin = {
   componentWillMount :function(context){
@@ -44,19 +43,19 @@ let CoreMixin = {
   }
 }
 //New Mixin
-import ReactNext from 'ReactNext.js';
-export default class LogMixin extends ReactNext.ComponentMixin{
+import Reacts from 'Reacts.js';
+export default class LogMixin extends Reacts.ComponentMixin{
     static PreRender(context){
         console.log('Log: Initializing context: ' + context.name);
     }
 }
 //Consume the Mixins, First arg is Null, indicating that use standard React Component,
 //since there is no other parent of this Component
-export default class Home extends RNext.ComponentWithMixin(null, CoreMixin, LogMixin){
+export default class Home extends Reacts.ComponentWithMixin(null, CoreMixin, LogMixin){
     render(){
         return (
             ...
         );
     }
 }
-</code>
+```
