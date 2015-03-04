@@ -1,0 +1,39 @@
+{
+  "name": "react-next",
+  "description": "ReactNext is a java script library on top of React.JS developed in ES6",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "react next",
+    "reactnext"
+  ],
+  "homepage": "https://github.com/achal7/ReactNext",
+  "bugs": {
+    "url": "https://github.com/achal7/ReactNext/issues"
+  },
+  "author": "Achal Shah",
+  "license": "ISC",
+  "files": [
+    "README.md",
+    "ReactNext.js",
+    "dist/",
+    "lib/"
+  ],
+  "main": "ReactNext.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/achal7/ReactNext"
+  },
+  "dependencies": {
+    "babel": "~4.3.0",
+    "babel-loader": "~4.0.0",
+    "babel-runtime": "~4.3.0",
+    "react": "^0.13.0-rc1"
+  },
+  "devDependencies": {
+    "webpack": "~1.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
