@@ -1,15 +1,15 @@
 {
-  "name": "react-next",
-  "description": "ReactNext is a java script library on top of React.JS developed in ES6",
+  "name": "reacts",
+  "description": "Reacts is a java script library on top of React.JS developed in ES6",
   "version": "0.0.1",
   "keywords": [
     "react",
     "react next",
     "reactnext"
   ],
-  "homepage": "https://github.com/achal7/ReactNext",
+  "homepage": "https://github.com/achal7/Reacts",
   "bugs": {
-    "url": "https://github.com/achal7/ReactNext/issues"
+    "url": "https://github.com/achal7/Reacts/issues"
   },
   "author": "Achal Shah",
   "license": "ISC",
@@ -19,10 +19,10 @@
     "dist/",
     "lib/"
   ],
-  "main": "ReactNext.js",
+  "main": "Reacts.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/achal7/ReactNext"
+    "url": "https://github.com/achal7/Reacts"
   },
   "dependencies": {
     "babel": "~4.3.0",
