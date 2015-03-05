@@ -68,4 +68,3 @@ export class ReactEventFilter{
         return (event) => true;
     }
 }
-//export {ReactEventBehaviourToExecutor, ReactEventToBehaviour, ComponentEvents };
